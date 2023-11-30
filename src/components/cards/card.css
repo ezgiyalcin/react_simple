@@ -1,0 +1,16 @@
+.card {
+  background: rebeccapurple;
+  color: white;
+  display: flex;
+  padding: 20px;
+  width: 350px;
+  margin: 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+
+  & img {
+    width: 100px;
+    height: 100px;
+  }
+}

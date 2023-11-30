@@ -1,0 +1,20 @@
+.modal-wrapper {
+  background-color: rgba(182, 182, 182, 0.687);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal form {
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+  gap: 10px;
+}

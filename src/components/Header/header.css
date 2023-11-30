@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.header-logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navMenu {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.infoBox {
+  background-color: purple;
+  padding: 5px;
+  border-radius: 5px;
+}
